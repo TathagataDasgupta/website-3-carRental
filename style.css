@@ -126,6 +126,57 @@ header{
     
      
 }
- 
+.form-container form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 100px;
+    background: rgb(243, 243, 243);
+    padding: 20px;
+    border-radius: 0.5rem;
+
+}
+.input-box{
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-box span{
+    font-weight: 500;
+}
+.input-box input{
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #eeeff1;
+    border-radius: 0.5em; 
+    font-size: 1rem;
+}
+.form-container form .btn{
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border-radius: 0.5rem;
+    background: #4e4a97;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form-container form .btn:hover{
+    background: var(--main-color);
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.heading h1{
+    font-size: 2rem;
+}
 
 
